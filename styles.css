@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  
+
+.container {
+    height: 100vh;
+    background-color: #090E22;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container {
+    width: 400px;
+    height: 500px;
+    background-color: #1d1e33;
+    align-items: center;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    width: 80%;
+    height: 35px;
+    border: none;
+    margin-left: 10%;
+}
+
+label {
+    display: block;
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #f44236;
+    color:#fff;
+    cursor:pointer;
+    margin-top: 7%;
+    margin-left: 30%;
+}
+
+#resultado {
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10%;
+}
+
+.profile-text {
+    padding: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.6;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 420px) {
+    .container {
+        width: 100%;
+    }
+    .card-container {
+        width: 90%;
+    }
+}
